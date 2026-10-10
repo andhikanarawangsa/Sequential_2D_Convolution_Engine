@@ -1,0 +1,253 @@
+VCD info: dumpfile sim/conv2d.vcd opened for output.
+RESULT test=1 i=0 j=0 Y=-2
+RESULT test=1 i=0 j=1 Y=0
+RESULT test=1 i=0 j=2 Y=1
+RESULT test=1 i=1 j=0 Y=-2
+RESULT test=1 i=1 j=1 Y=0
+RESULT test=1 i=1 j=2 Y=2
+RESULT test=1 i=2 j=0 Y=0
+RESULT test=1 i=2 j=1 Y=1
+RESULT test=1 i=2 j=2 Y=-1
+INFO  test=1 completed, start-to-done latency = 115 clock cycles
+RESULT test=2 i=0 j=0 Y=-293760
+RESULT test=2 i=0 j=1 Y=-293760
+RESULT test=2 i=0 j=2 Y=-293760
+RESULT test=2 i=1 j=0 Y=-293760
+RESULT test=2 i=1 j=1 Y=-293760
+RESULT test=2 i=1 j=2 Y=-293760
+RESULT test=2 i=2 j=0 Y=-293760
+RESULT test=2 i=2 j=1 Y=-293760
+RESULT test=2 i=2 j=2 Y=-293760
+INFO  test=2 completed, start-to-done latency = 115 clock cycles
+RESULT test=3 i=0 j=0 Y=291465
+RESULT test=3 i=0 j=1 Y=291465
+RESULT test=3 i=0 j=2 Y=291465
+RESULT test=3 i=1 j=0 Y=291465
+RESULT test=3 i=1 j=1 Y=291465
+RESULT test=3 i=1 j=2 Y=291465
+RESULT test=3 i=2 j=0 Y=291465
+RESULT test=3 i=2 j=1 Y=291465
+RESULT test=3 i=2 j=2 Y=291465
+INFO  test=3 completed, start-to-done latency = 115 clock cycles
+RESULT test=4 i=0 j=0 Y=0
+RESULT test=4 i=0 j=1 Y=0
+RESULT test=4 i=0 j=2 Y=0
+RESULT test=4 i=1 j=0 Y=0
+RESULT test=4 i=1 j=1 Y=0
+RESULT test=4 i=1 j=2 Y=0
+RESULT test=4 i=2 j=0 Y=0
+RESULT test=4 i=2 j=1 Y=0
+RESULT test=4 i=2 j=2 Y=0
+INFO  test=4 completed, start-to-done latency = 115 clock cycles
+RESULT test=6 i=0 j=0 Y=-2
+RESULT test=6 i=0 j=1 Y=0
+RESULT test=6 i=0 j=2 Y=1
+RESULT test=6 i=1 j=0 Y=-2
+RESULT test=6 i=1 j=1 Y=0
+RESULT test=6 i=1 j=2 Y=2
+RESULT test=6 i=2 j=0 Y=0
+RESULT test=6 i=2 j=1 Y=1
+RESULT test=6 i=2 j=2 Y=-1
+INFO  test=6 completed, start-to-done latency = 115 clock cycles
+RESULT test=7 i=0 j=0 Y=-12851
+RESULT test=7 i=0 j=1 Y=-5307
+RESULT test=7 i=0 j=2 Y=-22560
+RESULT test=7 i=1 j=0 Y=-9914
+RESULT test=7 i=1 j=1 Y=-34664
+RESULT test=7 i=1 j=2 Y=-11010
+RESULT test=7 i=2 j=0 Y=-3085
+RESULT test=7 i=2 j=1 Y=-7912
+RESULT test=7 i=2 j=2 Y=-32308
+INFO  test=7 completed, start-to-done latency = 115 clock cycles
+RESULT test=8 i=0 j=0 Y=21770
+RESULT test=8 i=0 j=1 Y=40733
+RESULT test=8 i=0 j=2 Y=14783
+RESULT test=8 i=1 j=0 Y=34163
+RESULT test=8 i=1 j=1 Y=40824
+RESULT test=8 i=1 j=2 Y=8641
+RESULT test=8 i=2 j=0 Y=7990
+RESULT test=8 i=2 j=1 Y=35694
+RESULT test=8 i=2 j=2 Y=22032
+INFO  test=8 completed, start-to-done latency = 134 clock cycles
+RESULT test=9 i=0 j=0 Y=-27944
+RESULT test=9 i=0 j=1 Y=-18471
+RESULT test=9 i=0 j=2 Y=-7193
+RESULT test=9 i=1 j=0 Y=-68312
+RESULT test=9 i=1 j=1 Y=-68240
+RESULT test=9 i=1 j=2 Y=-51146
+RESULT test=9 i=2 j=0 Y=-27603
+RESULT test=9 i=2 j=1 Y=-37248
+RESULT test=9 i=2 j=2 Y=-61451
+INFO  test=9 completed, start-to-done latency = 115 clock cycles
+RESULT test=10 i=0 j=0 Y=10532
+RESULT test=10 i=0 j=1 Y=31309
+RESULT test=10 i=0 j=2 Y=38126
+RESULT test=10 i=1 j=0 Y=19542
+RESULT test=10 i=1 j=1 Y=2604
+RESULT test=10 i=1 j=2 Y=44764
+RESULT test=10 i=2 j=0 Y=32408
+RESULT test=10 i=2 j=1 Y=15707
+RESULT test=10 i=2 j=2 Y=24986
+INFO  test=10 completed, start-to-done latency = 126 clock cycles
+RESULT test=11 i=0 j=0 Y=-25976
+RESULT test=11 i=0 j=1 Y=-5496
+RESULT test=11 i=0 j=2 Y=-11078
+RESULT test=11 i=1 j=0 Y=-23520
+RESULT test=11 i=1 j=1 Y=-34930
+RESULT test=11 i=1 j=2 Y=-17869
+RESULT test=11 i=2 j=0 Y=-11625
+RESULT test=11 i=2 j=1 Y=-12461
+RESULT test=11 i=2 j=2 Y=10009
+INFO  test=11 completed, start-to-done latency = 115 clock cycles
+RESULT test=12 i=0 j=0 Y=-47371
+RESULT test=12 i=0 j=1 Y=-52906
+RESULT test=12 i=0 j=2 Y=3425
+RESULT test=12 i=1 j=0 Y=3378
+RESULT test=12 i=1 j=1 Y=-29466
+RESULT test=12 i=1 j=2 Y=-3660
+RESULT test=12 i=2 j=0 Y=-48179
+RESULT test=12 i=2 j=1 Y=-21153
+RESULT test=12 i=2 j=2 Y=-32142
+INFO  test=12 completed, start-to-done latency = 124 clock cycles
+RESULT test=13 i=0 j=0 Y=3606
+RESULT test=13 i=0 j=1 Y=32415
+RESULT test=13 i=0 j=2 Y=-1311
+RESULT test=13 i=1 j=0 Y=25007
+RESULT test=13 i=1 j=1 Y=4391
+RESULT test=13 i=1 j=2 Y=23323
+RESULT test=13 i=2 j=0 Y=6514
+RESULT test=13 i=2 j=1 Y=31125
+RESULT test=13 i=2 j=2 Y=16318
+INFO  test=13 completed, start-to-done latency = 115 clock cycles
+RESULT test=14 i=0 j=0 Y=4762
+RESULT test=14 i=0 j=1 Y=863
+RESULT test=14 i=0 j=2 Y=17380
+RESULT test=14 i=1 j=0 Y=-18091
+RESULT test=14 i=1 j=1 Y=3992
+RESULT test=14 i=1 j=2 Y=17858
+RESULT test=14 i=2 j=0 Y=-10127
+RESULT test=14 i=2 j=1 Y=-28869
+RESULT test=14 i=2 j=2 Y=-19301
+INFO  test=14 completed, start-to-done latency = 130 clock cycles
+RESULT test=15 i=0 j=0 Y=7292
+RESULT test=15 i=0 j=1 Y=-17943
+RESULT test=15 i=0 j=2 Y=8944
+RESULT test=15 i=1 j=0 Y=1871
+RESULT test=15 i=1 j=1 Y=-20894
+RESULT test=15 i=1 j=2 Y=-11230
+RESULT test=15 i=2 j=0 Y=-7690
+RESULT test=15 i=2 j=1 Y=-28049
+RESULT test=15 i=2 j=2 Y=16228
+INFO  test=15 completed, start-to-done latency = 115 clock cycles
+RESULT test=16 i=0 j=0 Y=-2164
+RESULT test=16 i=0 j=1 Y=-3102
+RESULT test=16 i=0 j=2 Y=-61121
+RESULT test=16 i=1 j=0 Y=-4782
+RESULT test=16 i=1 j=1 Y=-9891
+RESULT test=16 i=1 j=2 Y=-7381
+RESULT test=16 i=2 j=0 Y=-35224
+RESULT test=16 i=2 j=1 Y=-8886
+RESULT test=16 i=2 j=2 Y=-59489
+INFO  test=16 completed, start-to-done latency = 129 clock cycles
+RESULT test=17 i=0 j=0 Y=-20623
+RESULT test=17 i=0 j=1 Y=-7605
+RESULT test=17 i=0 j=2 Y=-30675
+RESULT test=17 i=1 j=0 Y=-11680
+RESULT test=17 i=1 j=1 Y=-7558
+RESULT test=17 i=1 j=2 Y=-21343
+RESULT test=17 i=2 j=0 Y=-55320
+RESULT test=17 i=2 j=1 Y=-6189
+RESULT test=17 i=2 j=2 Y=-10831
+INFO  test=17 completed, start-to-done latency = 115 clock cycles
+RESULT test=18 i=0 j=0 Y=13223
+RESULT test=18 i=0 j=1 Y=23205
+RESULT test=18 i=0 j=2 Y=32178
+RESULT test=18 i=1 j=0 Y=23221
+RESULT test=18 i=1 j=1 Y=31711
+RESULT test=18 i=1 j=2 Y=4530
+RESULT test=18 i=2 j=0 Y=19044
+RESULT test=18 i=2 j=1 Y=35029
+RESULT test=18 i=2 j=2 Y=3723
+INFO  test=18 completed, start-to-done latency = 127 clock cycles
+RESULT test=19 i=0 j=0 Y=-15689
+RESULT test=19 i=0 j=1 Y=-28005
+RESULT test=19 i=0 j=2 Y=37
+RESULT test=19 i=1 j=0 Y=-44978
+RESULT test=19 i=1 j=1 Y=-29269
+RESULT test=19 i=1 j=2 Y=-42189
+RESULT test=19 i=2 j=0 Y=-42099
+RESULT test=19 i=2 j=1 Y=-45582
+RESULT test=19 i=2 j=2 Y=-24107
+INFO  test=19 completed, start-to-done latency = 115 clock cycles
+RESULT test=20 i=0 j=0 Y=-185
+RESULT test=20 i=0 j=1 Y=-20821
+RESULT test=20 i=0 j=2 Y=-3137
+RESULT test=20 i=1 j=0 Y=-37178
+RESULT test=20 i=1 j=1 Y=-36079
+RESULT test=20 i=1 j=2 Y=-5770
+RESULT test=20 i=2 j=0 Y=492
+RESULT test=20 i=2 j=1 Y=5439
+RESULT test=20 i=2 j=2 Y=-13089
+INFO  test=20 completed, start-to-done latency = 129 clock cycles
+RESULT test=21 i=0 j=0 Y=-21008
+RESULT test=21 i=0 j=1 Y=-2461
+RESULT test=21 i=0 j=2 Y=-7560
+RESULT test=21 i=1 j=0 Y=-19201
+RESULT test=21 i=1 j=1 Y=-8213
+RESULT test=21 i=1 j=2 Y=-19796
+RESULT test=21 i=2 j=0 Y=10024
+RESULT test=21 i=2 j=1 Y=12066
+RESULT test=21 i=2 j=2 Y=-29790
+INFO  test=21 completed, start-to-done latency = 115 clock cycles
+RESULT test=22 i=0 j=0 Y=15587
+RESULT test=22 i=0 j=1 Y=18562
+RESULT test=22 i=0 j=2 Y=9493
+RESULT test=22 i=1 j=0 Y=23032
+RESULT test=22 i=1 j=1 Y=-21403
+RESULT test=22 i=1 j=2 Y=26594
+RESULT test=22 i=2 j=0 Y=11997
+RESULT test=22 i=2 j=1 Y=-22660
+RESULT test=22 i=2 j=2 Y=25507
+INFO  test=22 completed, start-to-done latency = 129 clock cycles
+RESULT test=23 i=0 j=0 Y=33558
+RESULT test=23 i=0 j=1 Y=38588
+RESULT test=23 i=0 j=2 Y=-43
+RESULT test=23 i=1 j=0 Y=35435
+RESULT test=23 i=1 j=1 Y=40242
+RESULT test=23 i=1 j=2 Y=70864
+RESULT test=23 i=2 j=0 Y=56739
+RESULT test=23 i=2 j=1 Y=30983
+RESULT test=23 i=2 j=2 Y=31773
+INFO  test=23 completed, start-to-done latency = 115 clock cycles
+RESULT test=24 i=0 j=0 Y=31443
+RESULT test=24 i=0 j=1 Y=19851
+RESULT test=24 i=0 j=2 Y=-2718
+RESULT test=24 i=1 j=0 Y=384
+RESULT test=24 i=1 j=1 Y=26947
+RESULT test=24 i=1 j=2 Y=43549
+RESULT test=24 i=2 j=0 Y=47469
+RESULT test=24 i=2 j=1 Y=9715
+RESULT test=24 i=2 j=2 Y=12406
+INFO  test=24 completed, start-to-done latency = 132 clock cycles
+RESULT test=25 i=0 j=0 Y=33605
+RESULT test=25 i=0 j=1 Y=3330
+RESULT test=25 i=0 j=2 Y=4247
+RESULT test=25 i=1 j=0 Y=24062
+RESULT test=25 i=1 j=1 Y=40807
+RESULT test=25 i=1 j=2 Y=-11571
+RESULT test=25 i=2 j=0 Y=425
+RESULT test=25 i=2 j=1 Y=-5058
+RESULT test=25 i=2 j=2 Y=-8766
+INFO  test=25 completed, start-to-done latency = 115 clock cycles
+RESULT test=26 i=0 j=0 Y=-39355
+RESULT test=26 i=0 j=1 Y=-68532
+RESULT test=26 i=0 j=2 Y=-42948
+RESULT test=26 i=1 j=0 Y=-67007
+RESULT test=26 i=1 j=1 Y=-35474
+RESULT test=26 i=1 j=2 Y=-60203
+RESULT test=26 i=2 j=0 Y=-43043
+RESULT test=26 i=2 j=1 Y=-63738
+RESULT test=26 i=2 j=2 Y=-42830
+INFO  test=26 completed, start-to-done latency = 131 clock cycles
+=== ALL TESTS PASSED (26 tests) ===
+tb/tb_conv2d.v:273: $finish called at 30930000 (1ps)
