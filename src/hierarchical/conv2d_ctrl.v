@@ -30,7 +30,7 @@ module conv2d_ctrl (
         else        state <= next_state;
     end
 
-    // logika next-state
+    // next-state logic
     always @(*) begin
         next_state = state;
         case (state)
@@ -43,7 +43,7 @@ module conv2d_ctrl (
         endcase
     end
 
-    // logika output
+    // output logic
     always @(*) begin
         ld_en     = 1'b0;
         ld_clr    = 1'b0;
