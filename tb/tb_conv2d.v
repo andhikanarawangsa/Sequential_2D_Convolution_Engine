@@ -1,21 +1,19 @@
-// =============================================================================
-// File    : tb_conv2d.v
-// Description:
-//           Self-checking testbench for conv2d_engine (Verilog-2001).
+// File         : tb_conv2d.v
+// Author       : Andhika Narawangsa Susilo
+// Proyek       : Sequential Convolution Engine (FSMD)
+// Deskripsi    : Testbench self-checking conv2d_engine (Verilog-2001).
 //
-// Test Scenarios:
-//   Test 1 : Example test case from the assignment (sample X 5x5, simple vertical Sobel kernel)
-//   Test 2 : All X = 255, all K = -128 -> Y = -293760 (worst-case negative)
-//   Test 3 : All X = 255, all K = +127 -> Y = +291465 (worst-case positive)
-//   Test 4 : All X = 0, random K          -> Y = 0
-//   Test 5 : Asynchronous reset during LOAD, then repeat Test 1
-//   Test 6+: 20 random test cases; every even-numbered case uses in_valid stalls
+// Skenario:
+// Test 1 : Sampel X 5x5 dengan kernel Sobel vertikal
+// Test 2 : X = 255, K = -128 -> Y = -293760
+// Test 3 : X = 255, K = +127 -> Y = +291465
+// Test 4 : X = 0, K acak -> Y = 0
+// Test 5 : Reset asinkron saat LOAD, lalu ulangi Test 1
+// Test 6+: 20 tes acak; tes genap menggunakan stall in_valid
 //
-// Expected results are calculated inside the testbench using behavioral loops
-// and compared against the DUT output on every out_valid pulse.
-// The "RESULT test=.. i=.. j=.. Y=.." lines are used by
-// scripts/golden_model.py --check.
-// =============================================================================
+// Expected Y dihitung secara behavioral dan dibandingkan dengan DUT
+// setiap out_valid aktif. Format RESULT digunakan oleh golden_model.py.
+
 `timescale 1ns/1ps
 
 module tb_conv2d;

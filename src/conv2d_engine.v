@@ -1,37 +1,17 @@
-// =============================================================================
-// File    : conv2d_engine.v
-// Project : Sequential Convolution Engine (FSMD) - Individual VLSI System Assignment
-// Description:
-//           Sequential 2D convolution. Input X is 5x5 (unsigned 8-bit), kernel K
-//           is 3x3 (signed 8-bit), and output Y is 3x3 (signed 20-bit), with
-//           stride 1 and no padding.
-//           Only one MAC unit is used and shared across all operations (MAC sharing).
-//
-//   Y[i,j] = sum_{m=0..2} sum_{n=0..2} X[i+m, j+n] * K[m, n]
+// File         : conv2d_engine.v
+// Author       : Andhika Narawangsa Susilo - 13222036
+// Project      : Sequential Convolution Engine (FSMD)
+// Description  : Sequential 2D convolution implementation with X input size
+//                of 5x5, K kernel size of 3x3, and Y output size of 3x3.
+//                Using a single shared MAC unit with stride 1 without padding.
 //
 // Hierarchy:
-//   conv2d_engine     (top)  : connects the control unit and datapath
-//    |- conv2d_ctrl         : FSM (IDLE, LOAD, COMPUTE_MAC, WRITE_OUT, DONE)
-//    |- conv2d_datapath     : X/K register files, indexers, multiplier, accumulator
+// conv2d_engine     : Top-level connecting the control unit and datapath
+// conv2d_ctrl       : FSM to manage the sequence of operations
+// conv2d_datapath   : Register file, indexer, multiplier, and accumulator
 //
-// Interface Protocol:
-//   1. start: A one-clock-cycle pulse while the FSM is in IDLE (or DONE)
-//      initiates a new operation.
-//   2. In the LOAD state, each clock cycle with in_valid=1 stores one transfer:
-//        - data_X: X[0..24] in row-major order
-//          (X[0,0], X[0,1], ..., X[4,4])
-//        - data_K: K[0..8] in row-major order, valid for the first 9 transfers;
-//          data_K is ignored for transfers 10 through 25.
-//      After 25 transfers, the FSM automatically enters COMPUTE_MAC.
-//      in_valid may go low (stall) during loading; stalled cycles are not counted.
-//   3. out_valid: A one-clock-cycle pulse for each Y[i,j], in row-major order.
-//      data_Y: The value of Y[i,j], stable while out_valid=1 and held afterward.
-//   4. done: HIGH when all 9 elements of Y have been computed (DONE state).
-//      It goes LOW when the next start signal is asserted.
-//
-// Computation latency (without stalls):
-//   25 LOAD cycles + 9 x (9 MAC cycles + 1 WRITE cycle) = 115 clock cycles.
-// =============================================================================
+// Computation latency: 115 clock cycles without stall.
+
 `timescale 1ns/1ps
 
 // -----------------------------------------------------------------------------

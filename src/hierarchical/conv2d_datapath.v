@@ -1,3 +1,7 @@
+// Datapath module for 2D convolution.
+// This module manages the register file, indexer, multiplier, and accumulator.
+// Author: Andhika Narawangsa Susilo
+
 `timescale 1ns/1ps
 
 module conv2d_datapath (

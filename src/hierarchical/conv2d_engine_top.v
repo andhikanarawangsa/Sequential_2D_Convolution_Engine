@@ -1,3 +1,7 @@
+// Top-level module for 2D convolution.
+// This module connects the control unit and datapath.
+// Author: Andhika Narawangsa Susilo
+
 `timescale 1ns/1ps
 
 module conv2d_engine_top (

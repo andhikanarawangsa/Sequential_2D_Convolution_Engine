@@ -1,3 +1,7 @@
+// Control module to manage the flow of the 2D convolution process. 
+// This module manages the states and control signals to load data, perform computations, write results, and signal process completion.
+// Author: Andhika Narawangsa Susilo
+
 `timescale 1ns/1ps
 
 module conv2d_ctrl (

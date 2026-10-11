@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Golden model for 2D convolution (5x5 * 3x3 -> 3x3) for conv2d_engine verification.
+# Author: Andhika Narawangsa Susilo
+
 """Convolution golden model 2D (5x5 * 3x3 -> 3x3) for conv2d_engine verification.
 
 Usage:
